@@ -27,4 +27,4 @@ df_diff <- df %>%
 p_val <- mean(df_diff$diff >= original_mean)
 print(paste0("Either we observed a data set that has a probability of ", p_val, " or beer made these subjects more tasty"))
 
-df_diff %>% write_csv("./code/df_diff.csv")
+df_diff %>% write_csv("./df_diff.csv")
